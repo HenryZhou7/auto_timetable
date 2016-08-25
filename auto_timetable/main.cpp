@@ -7,9 +7,22 @@
 //
 
 #include <iostream>
+#include <vector>
+#include <string>
+#include "load_data.hpp"
+#include "basic_unit.hpp"
+#include "course.hpp"
+
+using namespace std;
 
 int main(int argc, const char * argv[]) {
-    // insert code here...
-    std::cout << "Hello, World!\n";
+    
+    vector<Course> courselist;
+    load_test_data(courselist);
+    
+    
+    
+    
+    
     return 0;
 }
